@@ -9,6 +9,7 @@
     <h1>Cheat sheet for Git</h1>
     <table>
         <thead>
+            <tr>Base</tr>
             <tr>
                 <th>Comands</th>
                 <th>What comands are doing</th>
@@ -39,7 +40,7 @@
                 <td>Record changes to the repository</td>
             <tr>
                 <td>git log</td>
-                <td>Shows the list commits</td>
+                <td>Shows the list commits for current branch</td>
             </tr>
             <tr>
                 <td>git checkout</td>
@@ -64,6 +65,33 @@
             <tr>
                 <td>git clone</td>
                 <td>Clone a repository to new directory</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>Advanced</tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>git revert</td>
+                <td>Revert the changes some existing commits</td>
+            </tr>
+            <tr>
+                <td>git reset</td>
+                <td>Cancels the indexing of the specified file, while saving its contents</td>
+            </tr>
+            <tr>
+                <td>git rebase</td>
+                <td>Combine commits of two branches</td>
+            </tr>
+            <tr>
+                <td>git cherry-pick</td>
+                <td>Use for take some changes, introdused by some commit and try to reapply them as a new commit at the top of the current branch.</td>
+            </tr>
+            <tr>
+                <td>git stash</td>
+                <td>The command saves your local modifications away and reverts the working directory to match the HEAD commit.</td>
             </tr>
         </tbody>
     </table>
